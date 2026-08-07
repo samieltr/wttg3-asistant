@@ -48,5 +48,7 @@
 ---
 
 <div align="center">
-  <i>Developed for the WTTG3 Community. Good luck surviving the shadows.</i>
+  <i>Developed by <b>samieltr</b> for the WTTG3 Community.</i><br>
+  <i>Special thanks to <a href="https://github.com/otrexdev/wttg3-assistant">otrexdev</a> for the clickpoint guides.</i><br>
+  <i>Good luck surviving the shadows.</i>
 </div>
