@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="Assets/Basic.js"></script>
+    <link rel="stylesheet" href="Assets/reset.css" />
+    <link rel="stylesheet" href="Assets/175_style.css" />
+      <link rel="stylesheet" href="Assets/style-clickpoints.css" type="text/css">
+    <script src="Assets/script.js"></script>
+</head>
+  <body>
+    <script type="text/javascript" src="Assets/175_script.js"></script>
+    <div class="header">
+      <div class="logo">
+        <a onClick="LinkClick('175.html')" class="active">shelter</a>
+      </div>
+      <div class="navbar">
+        <a onClick="LinkClick('176.html')" class="active">donate/subscribe</a>
+        <a onClick="LinkClick('177.html')" class="active">events</a>
+      </div>
+    </div>
+    <div class="bodyText">
+      <span>
+        Events are refreshed every two weeks. Next refresh occurs
+        <span style="font-family: 'Goldman'">tomorrow at <a class="CFTAG">0600</a> ZULU.</span>
+        <em class="PTAG"></em>
+
+        <br /><br />Click on <a class="CPTAG">any</a> underlined event to watch a replay.
+      </span>
+      <div class="events">
+        <span class="title">44,<a class = "CPTAG">490</a> minutes elapsed</span>
+        <br />
+        <span class="description" id="44490" onclick="playVideo(id)">
+          Mother begs to be released before eventually eating from the toilet.
+        </span>
+        <br /><em class="PTAG"></em><br />
+        <span class="title">43,481 minutes elapsed</span>
+        <br />
+        <span class="description" id="43481" onclick="playVideo(id)">
+          Daughter freaks out after 5109 minutes are added to the timer.
+        </span>
+        <br /><br />
+        <span class="title"><a class = "CFTAG">41,766</a> minutes elapsed</span>
+        <br />
+        <span class="description" id="41766" onclick="playVideo(id)">
+          Family cries pleading for donations to stop. Some members throw feces
+          at camera to prevent recording.
+        </span>
+        <br /><br />
+        <span class="title">37,998 minutes elapsed</span>
+        <br />
+        <span class="description" id="37998" onclick="playVideo(id)">
+          Mother faints from standing up too quickly. Upon hitting the ground
+          breaks nose and knocks herself out.
+        </span>
+        <br /><em class="PTAG"></em><br />
+        <span class="title">36,815 minutes elapsed</span>
+        <br />
+        <span class="description" id="36815" onclick="playVideo(id)">
+          Father dislocates ankle to retrieve otherwise unreachable food supply
+          for family.
+        </span>
+        <br /><br />
+        <span class="title">32,307 minutes elapsed</span>
+        <br />
+        <span class="description" id="32307" onclick="playVideo(id)">
+          Daughter is challenged to eat amputated finger from Father’s hand to
+          decrease timer by 3100 minutes. Struggles, but is successful.
+        </span>
+        <br /><em class="PTAG"></em><br />
+        <span class="title">30,242 minutes elapsed</span>
+        <br />
+        <span class="description" id="30242" onclick="playVideo(id)">
+          Father is challenged to amputate ring finger for 2200 minutes to be
+          removed from the timer. Moments after amputation timer increases by
+          2841 minutes courtesy of donations.
+        </span>
+        <br /><br />
+      </div>
+      <div class="playerText">
+        <span style="font-size: 24px">
+          Click on an underlined event above to <a class="CPTAG">play</a> it.
+        </span>
+        <br />
+        <span
+          >Note: You must be a subscriber to watch any of the events.
+          <em class="PTAG"></em> <br />You can subscribe
+          <a
+            onClick="LinkClick('176.html')" class="active"
+            style="text-decoration: underline"
+            >here</a
+          >.
+        </span>
+        <br /><br />
+      </div>
+      <span id="videoTitle">&lt;Selected Event&gt;.<a class="CFTAG">webm</a></span>
+      <br /><br />
+      <div class="eventVideo">
+        <div class="accessCode">
+          <span>ENTER SUBSCRIBER ACCESS CODE</span>
+          <br />
+          <input
+            type="password"
+            id="inputAccessCode"
+            onkeydown="accessCheck(event)"
+          />
+        </div>
+        <div class="VIDEO-TAG"></div>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>

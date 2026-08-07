@@ -1,0 +1,178 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charm-Bold
+FamilyName:Charm
+StyleName:Bold
+FullName:Charm Bold
+MenuName:Charm
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\SymphorosChosen\Font\Charm-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:135416
+FileModTime:1683071984
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Charm
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MPLUS1Code-Bold
+FamilyName:M PLUS 1 Code
+StyleName:Bold
+FullName:M PLUS 1 Code Bold
+MenuName:M PLUS 1 Code
+StyleBits:2
+FamilyNameNative:M PLUS 1 Code
+StyleNameNative:Bold
+FullNameNative:M PLUS 1 Code Bold
+WritingScript:Japanese
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\SymphorosChosen\Font\MPLUS1Code-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1752344
+FileModTime:1692985884
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,M PLUS 1 Code
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MPLUS1Code-Medium
+FamilyName:M PLUS 1 Code
+StyleName:Medium
+FullName:M PLUS 1 Code Medium
+MenuName:M PLUS 1 Code Medium
+StyleBits:0
+FamilyNameNative:M PLUS 1 Code
+StyleNameNative:Medium
+FullNameNative:M PLUS 1 Code Medium
+WritingScript:Japanese
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\SymphorosChosen\Font\MPLUS1Code-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1752784
+FileModTime:1692985884
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,M PLUS 1 Code Medium
+NameArray:0,Win,16,M PLUS 1 Code
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MPLUS1Code-Regular
+FamilyName:M PLUS 1 Code
+StyleName:Regular
+FullName:M PLUS 1 Code Regular
+MenuName:M PLUS 1 Code
+StyleBits:0
+FamilyNameNative:M PLUS 1 Code
+StyleNameNative:Regular
+FullNameNative:M PLUS 1 Code Regular
+WritingScript:Japanese
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\SymphorosChosen\Font\MPLUS1Code-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1746144
+FileModTime:1692985884
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,M PLUS 1 Code
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MPLUS1Code-SemiBold
+FamilyName:M PLUS 1 Code
+StyleName:SemiBold
+FullName:M PLUS 1 Code SemiBold
+MenuName:M PLUS 1 Code SemiBold
+StyleBits:0
+FamilyNameNative:M PLUS 1 Code
+StyleNameNative:SemiBold
+FullNameNative:M PLUS 1 Code SemiBold
+WritingScript:Japanese
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\SymphorosChosen\Font\MPLUS1Code-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1750964
+FileModTime:1692985884
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,M PLUS 1 Code SemiBold
+NameArray:0,Win,16,M PLUS 1 Code
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Orbitron-Regular
+FamilyName:Orbitron
+StyleName:Regular
+FullName:Orbitron Regular
+MenuName:Orbitron
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\SymphorosChosen\Font\Orbitron-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:24720
+FileModTime:1692985884
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Orbitron
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Syncopate-Regular
+FamilyName:Syncopate
+StyleName:Regular
+FullName:Syncopate Regular
+MenuName:Syncopate
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\SymphorosChosen\Font\Syncopate-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:142024
+FileModTime:1692985884
+WeightClass:400
+WidthClass:7
+AngleClass:0
+NameArray:0,Win,1,Syncopate
+%EndFont
+

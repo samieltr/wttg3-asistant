@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="Assets/Basic.js"></script>
+    <script type="text/javascript" src="Assets/111_script.js"></script>
+    <link rel="stylesheet" href="Assets/reset.css"/>
+    <link rel="stylesheet" href="Assets/111_style.css"/>
+    <title>Account</title>
+    <link rel="stylesheet" href="Assets/style-clickpoints.css" type="text/css">
+    <script src="Assets/script.js"></script>
+</head>
+<body class="create-account">
+    <div class="banner-wrapper">
+        <div class="banner-crop">
+            <a class = "CFTAG"><img src="Images/111_Header.png" class="banner-img"/></a>
+        </div>
+        <div class="banner-text">CRISIS<br>CALLS</div>
+    </div>
+    <div class="container">
+    
+        <div class="error-bar" id="errorBar">
+            <img src="Images/111_warning.png" style="padding-right: 10px;">There seems to be some issues on our end. Wait a few moments for your password <a class = "CPTAG">reset link</a>. If it does not arrive request another. <em class="PTAG text-dark" style="color: darkred; padding-left: 10px;"></em>
+        </div>
+    
+        <span class="reset-password-text">Log In</span>
+    
+        <p class="info-text">
+            to place a bet <em class="PTAG text-dark" style="color: lightblue;"></em> on <a class = "CPTAG">CrisisCalls</a>
+        </p>
+        <br>
+        <div class="input-wrapper">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+        </div>
+        <br><br>
+        <div class="input-wrapper">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+            <a onclick="LinkClick('113.html')" class="active">
+                <div class="forgot-password-text">
+                    forgot password?
+                </div>
+            </a>
+        </div>
+        <br>
+        <button id="login-button" class="log-in-button">Log In</button>
+        <div class="info-box">
+            <div class="info-top">
+                <span class="info-left">New to Crisis Calls?</span>
+                <a class="info-right" onclick="LinkClick('112.html')">Sign up</a>
+            </div>
+            <br>
+            <div class="info-bottom">
+                Verification is required to place bets.<br>Average time before verified: 2 <a class = "CFTAG">hours</a> <em class="PTAG text-dark" style="color: lightblue;"></em>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

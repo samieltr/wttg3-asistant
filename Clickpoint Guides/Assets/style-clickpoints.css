@@ -1,0 +1,87 @@
+.CPTAG {
+  outline:10px solid rgba(255,255,0,0.75);
+   background-color: rgba(255, 255, 0, 0.25);
+}
+
+.CFTAG {
+  outline:10px solid rgba(0,255,30,0.75) !important;
+   background-color: rgba(0, 255, 30, 0.25) !important;
+}
+
+.PTAG {
+	outline:10px solid rgba(255,0,0,0.75);
+	background-color: rgba(255, 0, 0, 0.25);
+}
+
+.CFTAG.CPTAG {
+	outline:10px solid rgba(0,255,255,0.75);
+	background-color: rgba(0, 255, 255, 0.25);
+}
+
+a.CFTAG:not(:has(> *)):not(:empty) {
+  display: inline !important;
+  outline: 10px solid rgba(0,255,30,0.75) !important;
+  background-color: rgba(0, 255, 30, 0.25) !important;
+}
+
+a.CPTAG:not(:has(> *)):not(:empty) {
+  display: inline !important;
+  outline: 10px solid rgba(255,255,0,0.75) !important;
+  background-color: rgba(255, 255, 0, 0.25) !important;
+}
+
+a.PTAG:not(:has(> *)):not(:empty) {
+  display: inline !important;
+  outline: 10px solid rgba(255,0,0,0.75) !important;
+  background-color: rgba(255, 0, 0, 0.25) !important;
+}
+
+a.CFTAG.CPTAG:not(:has(> *)):not(:empty) {
+  display: inline !important;
+  outline: 10px solid rgba(0,255,255,0.75) !important;
+  background-color: rgba(0, 255, 255, 0.25) !important;
+}
+
+a.CPTAG > img {
+  outline: 10px solid rgba(255,255,0,0.75) !important;
+  background-color: rgba(255, 255, 0, 0.25) !important;
+}
+
+a.CFTAG > img {
+  outline: 10px solid rgba(0,255,30,0.75) !important;
+  background-color: rgba(0, 255, 30, 0.25) !important;
+}
+
+a.PTAG > img {
+  outline: 10px solid rgba(255,0,0,0.75) !important;
+  background-color: rgba(255, 0, 0, 0.25) !important;
+}
+
+a.CFTAG.CPTAG > img {
+  outline: 10px solid rgba(0,255,255,0.75) !important;
+  background-color: rgba(0, 255, 255, 0.25) !important;
+}
+
+.CPTAG_area {
+  background:rgba(255,255,0,0.25);
+  background-color: rgba(255, 255, 0, 0.25);
+}
+
+.CFTAG_area {
+  background:rgba(0,255,30,0.25);
+}
+
+.CFTAG_area.CPTAG_area {
+	background:rgba(0,255,255,0.25);
+}
+
+* {
+  pointer-events:none !important;
+}
+
+img.nudity {
+  filter:blur(18px) !important;
+}
+#chat {
+    pointer-events: auto !important;
+}
