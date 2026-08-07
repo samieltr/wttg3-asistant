@@ -1,12 +1,12 @@
 <div align="center">
 
-  # 🟢 [CONNECT TO ASSISTANT NOW | ŞİMDİ ASİSTANA BAĞLAN](https://samieltr.github.io/wttg3.github.io/) 🟢
+  # 🟢 [CONNECT TO ASSISTANT NOW | ŞİMDİ ASİSTANA BAĞLAN](https://samieltr.github.io/wttg3-asistant/) 🟢
   
-  [![Launch Assistant](https://img.shields.io/badge/LAUNCH_ASSISTANT-39FF14?style=for-the-badge&logo=hackthebox&logoColor=black&labelColor=000&color=39FF14)](https://samieltr.github.io/wttg3.github.io/)
+  [![Launch Assistant](https://img.shields.io/badge/LAUNCH_ASSISTANT-39FF14?style=for-the-badge&logo=hackthebox&logoColor=black&labelColor=000&color=39FF14)](https://samieltr.github.io/wttg3-asistant/)
   <br>
   <br>
 
-  <a href="https://samieltr.github.io/wttg3.github.io/">
+  <a href="https://samieltr.github.io/wttg3-asistant/">
     <img src="https://pbs.twimg.com/media/HNXHnXTWUAE3OfX.png" alt="Welcome to the Game 3 Assistant Poster" width="600">
   </a>
   
