@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+  --bg-dark: #050505;
+  --bg-panel: rgba(15, 20, 15, 0.7);
+  --neon-green: #39ff14;
+  --neon-red: #ff3333;
+  --neon-blue: #00f3ff;
+  --text-main: #e0e0e0;
+  --text-dim: #7a8b7a;
+  --border-color: rgba(57, 255, 20, 0.2);
+  
+  --font-mono: 'Share Tech Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  background-image: 
+    linear-gradient(rgba(0, 20, 0, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 20, 0, 0.2) 1px, transparent 1px);
+  background-size: 20px 20px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-mono);
+  color: var(--neon-green);
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.4);
+}
+
+.app-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.glass-panel {
+  background: var(--bg-panel);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.5rem;
+}
+
+input, button, select {
+  font-family: var(--font-mono);
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-color);
+  color: var(--neon-green);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: var(--neon-green);
+  box-shadow: 0 0 8px rgba(57, 255, 20, 0.3);
+}
+
+button {
+  cursor: pointer;
+  background: rgba(57, 255, 20, 0.1);
+}
+
+button:hover {
+  background: rgba(57, 255, 20, 0.2);
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+}
+
+button.danger {
+  color: var(--neon-red);
+  border-color: rgba(255, 51, 51, 0.3);
+  background: rgba(255, 51, 51, 0.1);
+}
+button.danger:hover {
+  background: rgba(255, 51, 51, 0.2);
+  box-shadow: 0 0 10px rgba(255, 51, 51, 0.3);
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  overflow-x: auto;
+}
+
+.tab {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+}
+
+.tab:hover {
+  color: var(--text-main);
+  background: transparent;
+  box-shadow: none;
+}
+
+.tab.active {
+  color: var(--neon-green);
+  border-bottom: 2px solid var(--neon-green);
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.4);
+}
+
+/* Utilities */
+.flex-row { display: flex; gap: 0.5rem; align-items: center; }
+.flex-col { display: flex; flex-direction: column; gap: 0.5rem; }
+.space-between { justify-content: space-between; }
+.mt-1 { margin-top: 1rem; }
+.mb-1 { margin-bottom: 1rem; }
+.text-sm { font-size: 0.85rem; }
+.text-dim { color: var(--text-dim); }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(57, 255, 20, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(57, 255, 20, 0.5);
+}
+
+/* Badges & Legend */
+.legend-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  border-left: 3px solid var(--neon-blue);
+  font-size: 0.9rem;
+}
+
+.legend-bar span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* React Grid Layout Overrides */
+.react-grid-item.react-grid-placeholder {
+  background: var(--neon-green) !important;
+  opacity: 0.2 !important;
+  border-radius: 8px;
+}
+
+.react-resizable-handle {
+  filter: invert(1);
+  opacity: 0.5;
+}
+
+.grid-item {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease;
+}
+
+.grid-item:hover {
+  border-color: rgba(57, 255, 20, 0.5);
+}
+
+.drag-handle {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-dim);
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: grab;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+  user-select: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.grid-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+/* Remove default card borders/padding when inside grid-content so they don't double up */
+.grid-content > .card {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid var(--border-color);
+  font-size: 1.1rem;
+  cursor: help;
+}
+

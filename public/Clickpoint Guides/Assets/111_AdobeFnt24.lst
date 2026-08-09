@@ -1,0 +1,95 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Marcellus-Regular
+FamilyName:Marcellus
+StyleName:Regular
+FullName:Marcellus
+MenuName:Marcellus
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\CrisisCalls\Font\Marcellus-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:43988
+FileModTime:1663824430
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Marcellus
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Merriweather-Bold
+FamilyName:Merriweather
+StyleName:Bold
+FullName:Merriweather Bold
+MenuName:Merriweather
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\CrisisCalls\Font\Merriweather-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:142040
+FileModTime:1663824430
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Merriweather
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Merriweather-Italic
+FamilyName:Merriweather
+StyleName:Italic
+FullName:Merriweather Italic
+MenuName:Merriweather
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\CrisisCalls\Font\Merriweather-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:142648
+FileModTime:1663824430
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Merriweather
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Merriweather-Regular
+FamilyName:Merriweather
+StyleName:Regular
+FullName:Merriweather Regular
+MenuName:Merriweather
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\CrisisCalls\Font\Merriweather-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:149120
+FileModTime:1663824430
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Merriweather
+%EndFont
+

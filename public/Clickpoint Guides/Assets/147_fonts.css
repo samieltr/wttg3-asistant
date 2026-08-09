@@ -1,0 +1,58 @@
+/* LOGO FONTS */
+@font-face {
+    font-family: Anton-Regular;
+    src: url(../Assets/147_Anton-Regular.ttf);
+}
+@font-face {
+    font-family: Courgette-Regular;
+    src: url(../Assets/147_Courgette-Regular.ttf);
+}
+@font-face {
+    font-family: GlassAntiqua-Regular;
+    src: url(../Assets/147_GlassAntiqua-Regular.ttf);
+}
+@font-face {
+    font-family: GloriaHallelujah-Regular;
+    src: url(../Assets/147_GloriaHallelujah-Regular.ttf);
+}
+@font-face {
+    font-family: LuckiestGuy-Regular;
+    src: url(../Assets/147_LuckiestGuy-Regular.ttf);
+}
+@font-face {
+    font-family: Lumanosimo-Regular;
+    src: url(../Assets/147_Lumanosimo-Regular.ttf);
+}
+@font-face {
+    font-family: Pangolin-Regular;
+    src: url(../Assets/147_Pangolin-Regular.ttf);
+}
+@font-face {
+    font-family: PermamentMarker-Regular;
+    src: url(../Assets/147_PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: RockSalt-Regular;
+    src: url(../Assets/147_RockSalt-Regular.ttf);
+}
+/* OTHER FONTS */
+@font-face {
+    font-family: Sarabun-Regular;
+    src: url(../Assets/147_Sarabun-Regular.ttf);
+}
+@font-face {
+    font-family: Sarabun-Bold;
+    src: url(../Assets/147_Sarabun-Bold.ttf);
+}
+@font-face {
+    font-family: Sarabun-BoldItalic;
+    src: url(../Assets/147_Sarabun-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Sarabun-ExtraBold;
+    src: url(../Assets/147_Sarabun-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Sarabun-Italic;
+    src: url(../Assets/147_Sarabun-Italic.ttf);
+}

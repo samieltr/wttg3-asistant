@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <meta name="description" content="" />
+  <title>Jakobs Sink</title>
+  <link rel="stylesheet" href="Assets/reset.css" />
+  <link rel="stylesheet" href="Assets/140_style.css" type="text/css" />
+  <script type="text/javascript" src="Assets/Basic.js"></script>
+  <script type="text/javascript" src="Assets/140_easyVerify.js"></script>
+    <link rel="stylesheet" href="Assets/style-clickpoints.css" type="text/css">
+    <script src="Assets/script.js"></script>
+</head>
+
+<body id="page">
+  <div id="header"></div>
+  <div class="rowBox">
+    <div class="box">
+      <div id="broadcast">
+        <h2>Learning moments with momma<em class="PTAG text-dark"></em> deer</h2>
+        <img src="Images/140_playerThumbnail.png" />
+        <div>
+          <p>Last Broadcast: 09/21</p>
+          <div class="vertical"></div>
+          <p><a class="CFTAG">Peak</a> Viewership: 53 Watchers</p>
+        </div>
+        <div>
+          <p>Last Broadcast Duration: 3 hours 41 minutes 17 seconds</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div id="commentBox">
+        <h2>Comments can only be sent when broadcast is LIVE</h2>
+        <div><label>Name</label> <input type="text" id="nameInput" /></div>
+        <div>Comment <textarea id="commentInput"></textarea></div>
+        <div>
+          <img id="captcha" />
+        </div>
+        <div>
+          Type the characters above <input type="text" id="captchaInput" />
+        </div>
+        <button>Continue</button>
+      </div>
+    </div>
+    <div class="box full-width">
+      <div id="livecast">
+        <h2>What to expect in a live cast</h2>
+        <p>
+          The beauty of life must never be wasted. While the end comes for us
+          all, those who stumble upon recent remains should rejoice and take
+          pride in repurposing that which otherwise would go to waste.
+        </p>
+        <p>
+          Join me in my live<em class="PTAG"></em> broadcasts where I display how you can make the
+          most of a roadside tragedy! Everything you see me working with is
+          sourced locally from <a class="CPTAG">old</a> country roads.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="grid-item">
+      <div id="disclaimerBox">
+        <h1>DISCLAIMER</h1>
+        <p>
+          The broadcast’s sole purpose is to inform and grant an educational
+          form of media to those who wish to learn.
+        </p>
+        <p>
+          Other platforms don’t seem to understand the educational value this
+          program provides. I’ve spent<em class="PTAG"></em> plenty of my own savings to ensure that
+          my teachings don’t go to waste. Thank you for coming here to engage
+          with the informative topics covered.
+        </p>
+      </div>
+      <div id="clockBox">
+        <img src="Images/140_clock.png" />
+      </div>
+      <div id="widgetBox">
+        <p id="widgetTitle">TIME CONVERTER WIDGET v1.03</p>
+        <p>
+          Next broadcast will start at 7:00PM tomorrow
+          <span class="italic">(widget adjusted to local timezone)</span>
+        </p>
+        <p class="italic">Please rate this service</p>
+        <p id="widgetImgs">
+          <img src="Images/140_thumbsUP.png" onclick="" /><em class="PTAG"></em>
+          <img src="Images/140_thumbsDOWN.png" onclick="" />
+        </p>
+      </div>
+      <div id="rulesBox">
+        <h1>RULES</h1>
+        <p>
+          I only know English and Czech. Comments in other languages will be
+          ignored.
+        </p>
+        <p>I never speak during broadcasts.</p>
+        <p>
+          No on demand content is available. Record the broadcast yourself.
+        </p>
+        <p><a class="CFTAG">Enjoy</a>.</p>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div id="scheduleBox">
+        <h1>SCHEDULE</h1>
+        <p>
+          Broadcasts happen more frequently in the warmer months when there’s
+          a greater amount of harvestable product.
+        </p>
+        <p>
+          Expect at least one broadcast per month on the last Friday of the
+          month.
+        </p>
+        <p>
+          <a class="CPTAG">Time</a> of upcoming broadcast will be automatically adjusted to your
+          timezone on the widget. You can receive a broadcast reminder by
+          consenting to emails below.
+        </p>
+      </div>
+      <div id="donationsBox">
+        <h1>DONATIONS</h1>
+        <p>
+          Care to send a tip? My <a class="CFTAG">DOSCoin</a> wallet address is:<em class="PTAG"></em>
+          9S4rLIZekcaCZrbNFES0Wl90Hp6vg
+        </p>
+        <p>
+          Donations are non-refundable. Anything sent is appreciated, but not
+          necessary. This stream is something I enjoy doing and aim to
+          continue sharing info to other interested minds who come across my
+          page with or without donations.
+        </p>
+        <p>
+          From time to time I will set donation goals for more hands on large
+          scale projects. Contributing then will help speed up the time it
+          takes to organize and eventually orchestrate the project on camera.
+        </p>
+      </div>
+      <div id="emailBox">
+        <img src="Images/140_letterMail.png" />
+      </div>
+      <div id="consentBox">
+        <p>
+          Enter an email to receive broadcast updates<em class="PTAG"></em> (e.g. Broadcast is
+          live!)
+        </p>
+        <p class="italic" id="unsubscribe">
+          You can unsubscribe at any time.
+        </p>
+        <textarea id="consentTextArea"></textarea>
+        <div id="consentBtn">
+          <button onclick="clearTextBox()" style="margin-top: 10px;">consent</button>
+        </div>
+        <p class="italic" id="powered">powered by MailWidgeon</p>
+      </div>
+    </div>
+  </div>
+  <div id="hitCounterBox">
+    <img id="hitCounter" src="Images/140_hitCounter.png" />
+    <p> all time total <a class="CPTAG">hits</a> </p>
+  </div>
+</body>
+
+</html>

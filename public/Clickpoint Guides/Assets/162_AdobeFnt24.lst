@@ -1,0 +1,95 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Bold
+FamilyName:Lato
+StyleName:Bold
+FullName:Lato Bold
+MenuName:Lato
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\OvernightSuccess\Font\Lato-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:73332
+FileModTime:1683071984
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-BoldItalic
+FamilyName:Lato
+StyleName:Bold Italic
+FullName:Lato Bold Italic
+MenuName:Lato
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\OvernightSuccess\Font\Lato-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:77732
+FileModTime:1683071984
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Italic
+FamilyName:Lato
+StyleName:Italic
+FullName:Lato Italic
+MenuName:Lato
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\OvernightSuccess\Font\Lato-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:75792
+FileModTime:1683071984
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Regular
+FamilyName:Lato
+StyleName:Regular
+FullName:Lato Regular
+MenuName:Lato
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\aflat\Desktop\Live Projects\WTTGSD\WTTGSDSites\OvernightSuccess\Font\Lato-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:75152
+FileModTime:1683071984
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Lato
+%EndFont
+

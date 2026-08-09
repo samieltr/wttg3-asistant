@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedHanded - Log In</title>
+    <link rel="stylesheet" href="Assets/reset.css">
+    <script src="Assets/Basic.js"></script>
+    <link rel="stylesheet" href="Assets/166_style.css">
+    <script src="Assets/166_login.js"></script>
+    <link rel="stylesheet" href="Assets/style-clickpoints.css" type="text/css">
+    <script src="Assets/script.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <h1 class="logo-title">
+            RED
+           <img class="logo" src="Images/166_KeyHoleLogo.png" alt="KeyHole Logo">
+            HANDED
+        </h1>
+        <small class="motto">
+            The original murder <a class = "CPTAG">enthusiast</a> forum since 1993
+        </small>
+    </div>
+    <div id="login-main">
+        <div id="login-container">
+            <div id="login-header">
+                <h1>Log<a class="CPTAG">i</a>n</h1>
+                <em id="PTAG-login-header" class="PTAG"></em>
+            </div>
+            <p id="invalid-login-err">Login details invalid, try again</p>
+            <em id="PTAG-login-form" class="PTAG vertical absolute"></em>
+            <form>
+                <label for="username-input">Usern<a class="CFTAG">a</a>me</label>
+                <input type="text" name="username-input" id="username-input" autocomplete="off">
+                <br>
+                <label for="password-input">Password</label>
+                <input type="password" name="password-input" id="password-input" autocomplete="off">
+                <br>
+                <button type="button" id="login-form-btn" onClick="onLogin()">Login</button>
+                <br>
+            </form>
+        </div>
+        <button class="go-back-btn" onClick="LinkClick('166.html')">Go Back</button>
+        <em id="PTAG-login-bottom" class="PTAG absolute"></em>
+    </div>
+</body>
+</html>

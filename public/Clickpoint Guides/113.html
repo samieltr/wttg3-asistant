@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="Assets/Basic.js"></script>
+    <script type="text/javascript" src="Assets/111_script.js"></script>
+    <link rel="stylesheet" href="Assets/reset.css"/>
+    <link rel="stylesheet" href="Assets/111_style.css"/>
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="Assets/style-clickpoints.css" type="text/css">
+    <script src="Assets/script.js"></script>
+</head>
+<body class="reset-password">
+    <div class="banner-wrapper">
+        <div class="banner-crop">
+            <a class="CPTAG"><img src="Images/111_Header.png" class="banner-img"/></a>
+        </div>
+        <div class="banner-text">CRISIS<br><a class = "CFTAG">CALLS</a></div>
+    </div>
+    <div class="container">
+    
+        <div class="error-bar" id="errorBar">
+            <img src="Images/111_warning.png" style="padding-right: 10px;">
+            <em class="PTAG text-dark" style="color: darkred; padding-right: 10px;"></em>There seems to be some issues on our end. Wait a few moments for your password reset link. If it does not arrive <a class = "CFTAG">request</a> another.
+        </div>
+    
+        <span class="reset-password-text">Reset Your <a class="CPTAG">Password</a></span>
+    
+        <p class="info-text">
+            If an account is linked to the entered email,<br/>
+            a link <em class="PTAG text-dark" style="color: darkred;"></em> to reset your <a class="CPTAG">password</a> will be sent.
+        </p>
+    
+        <div class="input-wrapper">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+        </div>
+        
+        <button id="reset-password-button" class="send-reset-password-button">Send Reset Password Link</button>
+
+        <a onclick="LinkClick('112.html')" class="active">
+            <span class="return-link">
+              Return to Log In
+            </span>
+        </a>
+    </div>
+</body>
+</html>

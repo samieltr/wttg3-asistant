@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <title>Worldwide Workers</title>
+    <link rel="stylesheet" href="Assets/228_fonts.css">
+    <link rel="stylesheet" href="Assets/228_style.css" type="text/css">
+    <link rel="stylesheet" href="Assets/reset.css"/>
+    <script type="text/javascript" src="Assets/Basic.js"></script>
+    <script src="Assets/228_script.js"></script>
+    <link rel="stylesheet" href="Assets/style-clickpoints.css" type="text/css">
+    <script src="Assets/script.js"></script>
+</head>
+<body>
+
+    <div id="content">
+        <header>
+            <img id="logo" src="Images/228_logo.png" alt="logo">
+        </header>
+    
+        <main>
+            <nav>
+                <a onClick="LinkClick('228.html')" class="active" id="home"></a>
+                <a onClick="LinkClick('230.html')" class="active" id="submit"></a>
+                <a onClick="LinkClick('229.html')" class="active" id="about"></a>
+            </nav>
+
+            <p style="margin-top: 20px; font-size: 0.9em;">
+                All fields should meet the recommended minimum character count before a submission is made. This helps ensure enough detail has been provided, which speeds up processing on our end, and saves you from having to pay additional fees.
+            </p>
+            <br>
+            <p style="font-size: 0.9em;">
+                Refrain from <a class="CPTAG">mentioning</a> any personal details when answering these prompts. Only the key specifics are requested to validate WorldWide Workers can properly provide an accurate assessment of your submitted proposal.
+            </p>
+            <br><br>
+            <div id="submitForm">
+                <div id="locationInfo">
+                    <textarea type="text" id="locationInput" placeholder="Location(s) (Address, describe environment, level of security, other pertinent details)" maxlength="800"></textarea>
+                    <p class="bolditalic" style="font-size: 0.7em;"><span id="charlocationInput">0</span>/800 recommended minimum character count.</p>
+                </div>
+                <br>
+                <div id="targetInfo">
+                    <textarea type="text" id="tagetInput" placeholder="Target(s) (Person, object of interest, objective/goal)" maxlength="800"></textarea>
+                    <p class="bolditalic" style="font-size: 0.7em;"><span id="chartagetInput">0</span>/800 <em class="PTAG text-dark"></em> recommended minimum character count.</p>
+                </div>
+                <br>
+                <div id="crewInfo">
+                    <textarea type="text" id="crewInput" placeholder="Crew (Available crew, specialities or skills)" maxlength="800"></textarea>
+                    <p class="bolditalic" style="font-size: 0.7em;"><span id="charcrewInput">0</span>/800 recommended minimum character count.</p>
+                </div>
+                <br>
+                <div id="eqInfo">
+                    <textarea type="text" id="eqInput" placeholder="Equipment you intend to use (firearms, vehicles, available capital)" maxlength="800"></textarea>
+                    <p class="bolditalic" style="font-size: 0.7em;"><span id="chareqInput">0</span>/800 recommended minimum character count.</p>
+                </div>
+            </div>
+
+            <div id="disclosure">
+                <p>
+                    You will be charged an additional processing fee <span class="bold">(200 DOSCoin)</span> if any field does not include enough information to adequately fulfill our requirements.
+                </p>
+                <br>
+                <p>
+                    If a submission requires more than the <span class="bolditalic">three business day maximum</span> to process an <span class="bolditalic">additional 200 DOSCoin payment</span> will be required to continue. That fee will cover the next 2 business days. Proposals that demand more additional time <em class="PTAG text-dark"></em> will be charged <span class="bolditalic">125 DOSCoin per added business day</span> following the first 200 DOSCoin extension.
+                </p>
+                <br>
+                <p>
+                    There are no <a class="CFTAG">refunds</a> for proposals once submitted.
+                </p>
+                <br>
+                <p>
+                    Amendments on a proposal can be made up to a maximum of 24 hours after submission. Within this 24 hour <em class="PTAG text-dark"></em> period amendments should be sent to the contact email provided in your transaction confirmation. If the 24 hour period has lapsed you will be charged the additional processing fee <span class="bold">(200 DOSCoin)</span>.
+                </p>
+                <br>
+                <p>
+                    Failing to pay any additional fees incurred will result in your proposal being dropped by our team. Clients who are dropped will not receive any information from us about the work we had done up until that point in time and you will be blacklisted from using our services in the future.
+                </p>
+            </div>
+            
+            <div id="infoForm">
+                <input type="text" placeholder="Enter preferred contact email address">
+                <em class="PTAG text-dark" style="font-size: 0.7em; position: absolute; left: 230px; margin-top: 55px; font-family: NotoSans-Light;"></em>
+                <br>
+                <input type="text" placeholder="Enter linked wallet address">
+            </div>
+
+            <div id="conditions" class="bold">
+                <p>
+                    I accept the 550 DOSCoin charge to process this proposal. I have reviewed it to the best of my ability and believe it meets the expected level of detail requested from WorldWide Workers.
+                </p>
+                <br>
+                <p>
+                    I have been made aware of all additional fees I may incur and the refund <a class="CPTAG">policy</a>.
+                </p>
+                <br>
+                <p>
+                    By clicking the <a class = "CFTAG">submit</a> button below I am consenting to all above statements and any applicable terms made available on this site.
+                </p>
+            </div>
+            <br>
+            <span id="paymentFailedText" class="bold" style="color:#861313; display: block; text-align: center; font-size: 1.2em;">PAYMENT FAILED</span>
+            <a onClick="submitPayment()" id="submitFormBtn"></a>
+            <br><br>
+            <em class="PTAG text-dark" style="position: absolute; top: 5px; left: 5px; color: #0c400c; font-size: 0.6em;"></em>
+        </main>
+    </div>
+    <script>
+        document.getElementById("submitForm").addEventListener("input", characterCounter)
+
+        function characterCounter() {
+            let text = document.getElementById(event.target.id).value;
+            let counter = "char" + event.target.id;
+            console.log(counter)
+            document.getElementById(counter).innerHTML = text.length;
+        }
+    </script>
+</body>
+</html>

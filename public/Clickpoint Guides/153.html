@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="Assets/Basic.js"></script>
+  <link rel="stylesheet" href="Assets/reset.css"/>
+  <link rel="stylesheet" href="Assets/151_style.css">
+  <script src="Assets/151_buyError.js"></script>
+  <title>LostTapes</title>
+    <link rel="stylesheet" href="Assets/style-clickpoints.css" type="text/css">
+    <script src="Assets/script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="mainCont container widthFit">
+            <h1>LostTapes.0021 <em class="PTAG text-dark"></em></h1>
+            <p>'The Mind Cannot Unsee the <a class="CPTAG">Seen</a>.'</p>
+        </div>
+        <div class="container width90">
+            <span class="buyTextBox">
+                <p id="buyLabel1">Cost of the collection is <span class="textBold">81 DOSCoin</span>. Input a valid <a class = "CPTAG">email</a> with your payment to receive a link containing all 18 tapes in downloadable format.</p>
+                <p id="buyLabel2" class="fsize80 marginTB20">No physical copies of the tapes can be <a class = "CFTAG">purchased</a>.</p>
+            </span>
+            <form>
+                <p class="textBold"><a class="CFTAG">Email</a> <em class="PTAG text-dark"></em></p>
+                <input type="text">
+                <input onclick="errorMSG()" class="buyBTN" type="button" value="BUY COLLECTION FOR 81 DOSCoin">
+            </form>
+        </div>
+        <span id="pgArrow">
+            <a onClick="LinkClick('151.html')"><img src="Images/151_backArrow.png"></a>
+        </span>
+        <em class="PTAG text-dark" style="position: absolute; bottom: 0; left: 0; color: white; font-size: 1.2em; margin-left: 5px;"></em>
+        <em class="PTAG text-dark" style="position: absolute; top: 0; right: 0; color: white; font-size: 1.2em; margin-right: 5px;"></em>
+    </main>
+</body>
+</html>
